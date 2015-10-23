@@ -1,6 +1,7 @@
 language: ruby
 
-matrix.include:
+matrix:
+  include:
   - sudo: false
     env: SUDO=false PLATFORM=precise
   - sudo: required
