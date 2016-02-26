@@ -5,6 +5,7 @@ matrix:
   - sudo: false
     env: SUDO=false PLATFORM=precise
   - sudo: required
+    dist: precise
     env: SUDO=true PLATFORM=precise
   - sudo: required
     dist: trusty
