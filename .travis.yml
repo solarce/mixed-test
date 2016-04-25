@@ -1,15 +1,6 @@
 language: ruby
-
-matrix:
-  include:
-  - sudo: false
-    env: SUDO=false PLATFORM=precise
-  - sudo: required
-    dist: precise
-    env: SUDO=true PLATFORM=precise
-  - sudo: required
-    dist: trusty
-    env: SUDO=true PLATFORM=trusty
+sudo: required
+group: legacy
 
 script:
   - uname -a
