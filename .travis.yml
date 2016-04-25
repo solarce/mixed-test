@@ -3,5 +3,6 @@ sudo: required
 group: legacy
 
 script:
+  - echo "gi"
   - uname -a
   - true
