@@ -10,7 +10,7 @@ before_script:
   - sudo ln -s /mnt/ramdisk/mysql /var/lib/mysql && sleep 10
 
 script:
-  - sudo mysql start
+  - sudo start mysql
 
 after_failure:
   - sudo cat /var/log/mysql/error.log
